@@ -1,12 +1,12 @@
 ![QR-Code](qr.png)
 
 # phoenixqr
-Generiert einen QR-Code (z.B. für Webseiten) bzw. einen EPC QR-Code (Überweisungen)
+Generiert einen QR-Code (z.B. für Webseiten) bzw. einen EPC QR-Code (Überweisungen). Benötigt den uralten [QR-Code Generator](https://github.com/t0k4rt/phpqrcode).
 
 
 ## Technisches / API
 
-Anfragen per **POST** und **GET** werden vom Server unterstützt.
+Anfragen per **GET** werden vom Server unterstützt.
 
 Standardpfad: `qr.phoenixgymnasium.de`.
 
