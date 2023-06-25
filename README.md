@@ -1,12 +1,12 @@
-# phoenixapi
-API für verschiedene Tools, die man im Unterricht gelegentlich braucht.
+# phoenixqr
+Generiert einen QR-Code (z.B. für Webseiten) bzw. einen EPC QR-Code (Überweisungen)
 
 
 ## Technisches / API
 
 Anfragen per **POST** und **GET** werden vom Server unterstützt.
 
-Standardpfad: `api.phoenixgymnasium.de`.
+Standardpfad: `qr.phoenixgymnasium.de`.
 
 ### Parameter
 
