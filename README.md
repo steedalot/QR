@@ -1,4 +1,4 @@
-![QR-Code](qr.png)
+![Manchmal funktionierender QR-Code](qr.png)
 
 # phoenixqr
 Generiert einen QR-Code (z.B. für Webseiten) bzw. einen EPC QR-Code (Überweisungen). Benötigt den uralten [QR-Code Generator](https://github.com/t0k4rt/phpqrcode).
@@ -34,4 +34,4 @@ Optionaler Parameter -> Ermöglicht, das ECC-Niveau (_L_, _M_, _Q_, _H_) anzugeb
 
 `{"type": "text", "text": "https://www.pgwv.de"}`
 
--> Generiert einen QR-Code mit der URL _https://www.phoenixgymnasium.de_ mit der ECC-Stufe Q (Standard).
+-> Generiert einen QR-Code mit der URL _https://www.pgwv.de_ mit der ECC-Stufe Q (Standard).
