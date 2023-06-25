@@ -1,3 +1,5 @@
+![QR-Code](qr.png)
+
 # phoenixqr
 Generiert einen QR-Code (z.B. für Webseiten) bzw. einen EPC QR-Code (Überweisungen)
 
