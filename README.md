@@ -13,9 +13,9 @@ Standardpfad: `qr.phoenixgymnasium.de`.
 **type**
 
 Alle Anfragen **müssen** den Parameter _type_ enthalten. Mögliche Werte sind:
-* _qr_
+* _text_
   
-  Generiert einen QR-Code. Der Parameter _text_ muss gesetzt sein.
+  Generiert einen regulären QR-Code. Der Parameter _text_ muss gesetzt sein.
 * _epc_
 
   Generiert einen Code für Online-Banking.
@@ -30,6 +30,6 @@ Optionaler Parameter -> Ermöglicht, das ECC-Niveau (_L_, _M_, _Q_, _H_) anzugeb
 
 ### Beispiele
 
-`{"type": "qr", "text": "https://www.pgwv.de"}`
+`{"type": "text", "text": "https://www.pgwv.de"}`
 
 -> Generiert einen QR-Code mit der URL _https://www.phoenixgymnasium.de_ mit der ECC-Stufe Q (Standard).
