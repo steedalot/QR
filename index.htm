@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Phoenix Gymnasium QR Code Generator</title>
+        <link rel="stylesheet" href="simple.min.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <header>
+            <h1>🤳🏻 Banking QR Code</h1>
+        </header>
+        <main>
+            <h2> Bankdaten eingeben </h2>
+
+            <form>
+                <p>
+                    <label for="empfaenger">Empfänger:</label>
+                    <input type="text" id="empfaenger" name="empfaenger" required style="width: 300px;">
+                </p>
+                <p>
+                    <label for="iban">IBAN:</label>
+                    <input type="text" id="iban" name="iban" required style="width: 300px;">
+                    <span id="emoji-iban" style="display: inline-block"></span>
+                </p>
+                <p>
+                    <label for="zweck">Verwendungszweck:</label>
+                    <input type="text" id="zweck" name="zweck" style="width: 300px;">
+                <p>
+                    <label for="betrag">Betrag:</label>
+                    <input type="text" id="betrag" name="betrag">
+                </p>
+                <p>
+                    <span id="bic"></span>
+                </p>
+                <button id="sendButton" disabled>QR-Code generieren</button>
+                <button type="reset" id="resetButton">Zurücksetzen</button>
+            </form>
+
+            <p style="text-align: center">
+                <span id="qr-code"></span><br>
+                <button id="copyButton" style="display: none;">📋 Kopieren</button>
+            </p>
+
+        </main>
+        <footer>
+            <p>© 2024 Daniel Gaida, v0.1</p>
+        </footer>
+    </body>
+    <script src = "code.js"></script>
+</html>
